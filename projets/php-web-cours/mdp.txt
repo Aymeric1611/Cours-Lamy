@@ -1,0 +1,15 @@
+url du site https://flam-cours.fr
+### COURS 2 - LES VARIABLES ###
+Exercice 1 (exo-fiche.php) : SIO-VAR-PROD
+Exercice 2 (exo-profil.php) : SIO-VAR-PROF
+
+### COURS 3 - LES CONDITIONS ###
+Exercice 1 (exo-promo) : SIO-COND-PROM
+Exercice 2 (exo-login) : SIO-COND-LOG
+
+### Inclusions ###
+tp1 - CINESIO2025
+tp2 - CINESIO-BDD
+tp3 - CINESIO-DETAIL
+tp4 - CINESIO-FORM
+tp5 - CINESIO-AUTH

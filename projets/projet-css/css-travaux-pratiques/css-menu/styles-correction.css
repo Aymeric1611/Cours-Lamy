@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.logo i{
+    color: rgb(60, 60, 196);
+    font-size: 24px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(60, 60, 196);
+}
+
+.nav-actions{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.btn-outline{
+    border: 1px solid rgb(60, 60, 196);
+    color: rgb(60, 60, 196);
+    background-color: white;
+}
+
+.btn-full{
+    border: 1px solid rgb(60, 60, 196);
+    color: white;
+    background-color: rgb(60, 60, 196);
+}

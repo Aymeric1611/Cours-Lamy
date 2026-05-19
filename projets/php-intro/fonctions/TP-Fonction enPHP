@@ -1,0 +1,64 @@
+<?php
+function convertirCelsiusFahrenheit(int $temperatureC):int{
+    return $temperatureC * 9/5 + 32;
+}
+$temperatureF = convertirCelsiusFahrenheit(-5);
+echo "la temperature en Fahrenheit est de $temperatureF\n";
+
+function genererNumeroAdhérent():string{
+    $numAdherant = "";
+    for ($i = 0; $i < 2; $i ++){
+        $numAdherant .= chr(random_int(ord("A"),ord("Z")));
+    }
+    $numAdherant .= "-";
+    for ($i = 2; $i < 8; $i ++){
+        $numAdherant .= random_int(0, 9);
+    }
+    return $numAdherant;
+}
+
+echo genererNumeroAdhérent()."\n";
+
+function genererNumeroCommande():string{
+    $numCommande = "CMD-"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>

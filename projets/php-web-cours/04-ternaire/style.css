@@ -1,0 +1,26 @@
+.badge{
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+.badge-success{
+    background-color: rgb(43, 188, 60);
+}
+
+.badge-danger{
+    background-color: red;
+}
+
+.critique{
+    color: red;
+}
+
+.suffisant{
+    color: green;
+}
